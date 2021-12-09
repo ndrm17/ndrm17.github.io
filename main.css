@@ -1,0 +1,29 @@
+@import url('https://fonts,googleapis.com/css?family=Poppins:400,500,600,700,800,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background: #262626;
+}
+
+section {
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+p {
+    position: relative;
+    font-size: 10px;
+    letter-spacing: -0.01em;
+    line-height: 0.7em;
+    background: url(lbnw.jpg);
+    background-position: center;
+    background-blend-mode: color-dodge;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+    text-align: left;
+}
